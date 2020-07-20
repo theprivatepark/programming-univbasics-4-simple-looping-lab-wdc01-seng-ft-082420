@@ -8,15 +8,24 @@ end
 
 def loop_message_n_times(message, limit)
   count = 0
-  while count  do
+  while count < limit do
     puts message 
-    count
-end
+    count += 1
+  end
 end 
 
-def output_array(message, integer)
-  count = integer
-  while 
+def output_array(array)
+  count = 0
+  while count < array.length do
+    puts array[count]
+    count += 1 
+  end
 end
 
 def return_string_array(array)
+  count = 0
+  while count < array.length do
+    
+    count += 1 
+  end
+end
